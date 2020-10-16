@@ -16,7 +16,7 @@
     },
     "categories": [
         "Debuggers",
-        "Testing",
+        "Formatters",
         "Linters"
     ],
     "activationEvents": [
