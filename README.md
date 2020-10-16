@@ -4,11 +4,11 @@ Here lies the VSCode extension "circleci-config-validator". __What does it do?__
 
 ## Features
 
-After opening your CircleCI `config.yml` file, select the `CircleCI Config Validator: Validate` command from the command palette. You should see a prompt that says if your config is valid or invalid.
+After opening your CircleCI `config.yml` file, select the `CircleCI Config Validator: Validate` command from the command palette. You should see a prompt in the bottom right that says if your config is valid or invalid.
 
 ![command palette](images/command_palette.png)
 
-To see the list of errors open the VSCode Output Console and select "CircleCI Config Validator" from the dropdown menu.
+To see the list of errors open the VSCode `PROBLEMS` console.
 
 ![prompt](images/output.png)
 
@@ -16,25 +16,20 @@ To see the list of errors open the VSCode Output Console and select "CircleCI Co
 
 Search for `CircleCI Config Validator` in the VSCode extensions marketplace and you should find it.
 
-This is a super minimal extension but it is making http requests to the CircleCI API servers so keep that in mind if you notice delays.
-
 ## Requirements
 
-None so far.
-
-## Extension Settings
-
-None so far..
-
-## Known Issues
-
-None so far...
+This is a super minimal extension but it is making http requests to the CircleCI API servers so keep that in mind if you notice delays.
 
 ## Release Notes
 
 ### 0.0.1
 
 Initial release!
+
+## Contributing
+
+1. Create an issue discussing how and why your contribution will improve this extension.
+2. Fork, code, test, and submit a PR!
 
 -----------------------------------------------------------------------------------------------------------
 

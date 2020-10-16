@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import { request, gql } from 'graphql-request';
 
 const endpoint = 'https://circleci.com/graphql-unstable';
-const prefix = 'CircleCi Config Validator';
+const prefix = 'CircleCI Config Validator';
 const maxProblems = 40;
 
 let channel = vscode.window.createOutputChannel(prefix);
@@ -84,14 +84,14 @@ async function validate() {
     const { valid, errorLog } = await isValid(query);
 
     if (valid) {
-        vscode.window.showInformationMessage('Valid CircleCi config');
+        vscode.window.showInformationMessage('Valid CircleCI config');
     } else {
         if (documentUri) {
             showProblems(documentUri, errorLog);
         } else {
             channel.appendLine(JSON.stringify(errorLog, undefined, 2));
         }
-        vscode.window.showErrorMessage('Invalid CircleCi config');
+        vscode.window.showErrorMessage('Invalid CircleCI config');
     }
 }
 
