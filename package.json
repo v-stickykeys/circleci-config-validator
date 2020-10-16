@@ -15,8 +15,9 @@
         "vscode": "^1.50.0"
     },
     "categories": [
-        "CI/CD",
-        "CI"
+        "Debuggers",
+        "Testing",
+        "Linters"
     ],
     "activationEvents": [
         "onCommand:circleci-config-validator.validateFromPalette"
