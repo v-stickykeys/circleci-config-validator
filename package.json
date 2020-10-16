@@ -1,5 +1,8 @@
 {
-	"name": "circleci-config-validator",
+    "name": "circleci-config-validator",
+    "repository": {
+        "url": "https://github.com/valmack/circleci-config-validator"
+    },
 	"author": {
 		"name": "val",
 		"url": "https://github.com/valmack"
