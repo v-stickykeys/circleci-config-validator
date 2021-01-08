@@ -2,6 +2,9 @@
 
 Here lies the VSCode extension "circleci-config-validator". __What does it do?__ It validates your CircleCI config in VSCode.
 
+This is free and open source software! If you find this extension helpful please:
+- [rate this extension](https://marketplace.visualstudio.com/items?itemName=valmack.circleci-config-validator&ssr=false#review-details) or [fund my licorice addiction](https://www.buymeacoffee.com/valmack)
+
 ## Features
 
 After opening your CircleCI `config.yml` file, select the `CircleCI Config Validator: Validate` command from the command palette. You should see a prompt in the bottom right that says if your config is valid or invalid.
